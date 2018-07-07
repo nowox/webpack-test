@@ -4,13 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "James Hibbard",
   "license": "ISC",
   "dependencies": {
+    "datatables": "^1.10.18",
     "jquery": "^3.2.1",
     "lightbox2": "^2.9.0",
+    "npm-font-open-sans": "^1.1.0",
     "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
   }
 }
